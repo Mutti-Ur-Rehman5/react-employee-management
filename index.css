@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0; /* optional: removes default browser spacing */
+}
+
+
+#Tasklist::-webkit-scrollbar{
+  display:none;
+
+}
